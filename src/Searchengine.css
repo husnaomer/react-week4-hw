@@ -1,0 +1,21 @@
+.search-input {
+  padding: 15px;
+  padding-right: 110px;
+  margin-right: 5px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.search {
+  padding: 15px 25px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  background: #007bff;
+  border: none;
+  color: white;
+}
+.Searchengine {
+  padding: 20px 20px 24px;
+  margin: 20px 0;
+  max-width: 630px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+

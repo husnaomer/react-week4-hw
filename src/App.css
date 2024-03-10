@@ -1,38 +1,59 @@
 .App {
-  text-align: center;
+  padding: 20px 16px 24px;
+  margin: 20px 0;
+  max-width: 630px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App ul {
+  list-style: none;
+  padding: 0;
+  color: #92948f;
+  font-size: 20px;
+}
+.App .city {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+}
+.App .temp {
+  position: relative;
+  top: -55px;
+  left: 90px;
+  color: black;
+  font-size: 50px;
+}
+.App .degree {
+  position: relative;
+  bottom: 30px;
+  font-size: 20px;
+  right: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .detail {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: right;
+  position: relative;
+  bottom: 100px;
 }
-
-.App-link {
-  color: #61dafb;
+.App img {
+  position: relative;
+  top: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .forecast {
+ display:flex;
+ justify-content: space-around;
+  position: relative;
+  bottom: 40px;
+    color: #92948f;
+}
+.App .forecast-temp {
+  display: block;
+  position: relative;
+  top: 20px;
+}
+.App .forecast-img{
+  position: relative;
+  bottom: 10px;
+  color: black;
 }

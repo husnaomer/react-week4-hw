@@ -3,7 +3,7 @@ import SearchEngine from "./searchengine";
 function App() {
   return (
     <div className="App">
-      <SearchEngine />
+      <SearchEngine  city="kabul"/>
     </div>
   );
 }
